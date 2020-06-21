@@ -1,13 +1,11 @@
-CC=mips-linux-gnu-gcc
-
-hello.s: hello.c
-	$(CC) -O0 -S hello.c
+AS=mips-linux-gnu-as
+LD=mips-linux-gnu-ld
 
 hello.o: hello.s
-	$(CC) -c hello.s
+	$(AS) -o hello.o hello.s
 
 hello: hello.o
-	$(CC) --static hello.o -o hello
+	$(LD) -o hello hello.o 
 
 clean:
 	rm hello hello.o
