@@ -9,3 +9,7 @@ hello: hello.o
 
 clean:
 	rm hello hello.o
+
+test:
+	qemu-mips -g 12345 hello &
+	gdb-multiarch hello
