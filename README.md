@@ -24,3 +24,10 @@ gdb-multiarch <binary>
 #     i r
 #     step
 ```
+
+## link
+
+* https://en.wikipedia.org/wiki/MIPS_architecture#See_also
+* https://ja.wikipedia.org/wiki/MIPSアーキテクチャ#コンパイラのレジスタ使用規則
+* https://golang.org/src/syscall/zsysnum_linux_mips.go
+  Linux System call
