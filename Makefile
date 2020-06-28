@@ -11,5 +11,5 @@ clean:
 	rm -f *.bin *.o
 
 test:
-	qemu-mips -g 12345 hello &
-	gdb-multiarch hello
+	qemu-mips -g 12345 hello.bin &
+	gdb-multiarch hello.bin
