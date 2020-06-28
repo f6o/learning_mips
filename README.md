@@ -31,3 +31,4 @@ gdb-multiarch <binary>
 * https://ja.wikipedia.org/wiki/MIPSアーキテクチャ#コンパイラのレジスタ使用規則
 * https://golang.org/src/syscall/zsysnum_linux_mips.go
   Linux System call
+* http://www.cs.uni.edu/~fienup/cs041s08/lectures/lec20_MIPS.pdf
